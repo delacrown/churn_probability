@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 
-model = pickle.load(open("C:\\Users\\Rotimi\\Downloads\\model.pkl",'rb'))
+model = pickle.load(open("model.pkl",'rb'))
 
 st.title('Clients Churn Probability Predictor')
 st.sidebar.header('Clients Data')
